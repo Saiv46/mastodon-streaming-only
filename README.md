@@ -12,8 +12,7 @@ cd mastodon-streaming-only
 pnpm i
 ```
 
-2. Read Mastodon's .env file and run Streaming API server
+2. Run Streaming API server
 ```sh
-set -a; source .env; set +a
 pnpm start
 ```
