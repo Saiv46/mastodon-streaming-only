@@ -1,0 +1,26 @@
+{
+  "name": "@mastodon/mastodon",
+  "license": "AGPL-3.0-or-later",
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "start": "node ./streaming/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Saiv46/mastodon-streaming-only.git"
+  },
+  "private": true,
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsdom": "^20.0.1",
+    "npmlog": "^7.0.1",
+    "pg": "^8.5.0",
+    "redis": "^4.0.6 <4.1.0",
+    "throng": "^4.0.0",
+    "uuid": "^8.3.1",
+    "ws": "^8.10.0"
+  }
+}
